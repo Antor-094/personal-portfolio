@@ -67,6 +67,24 @@ header .profile .social-icons a{
 header .profile .social-icons a:hover{
     background-color: var(--themeColor);
 }
+.marginTop{
+    margin-top: 20px;
+}
+.home-row a{
+    text-decoration: none;
+    
+}
+.btn-resume{
+    
+    border-radius: 5px;
+    padding: 7px;
+    background-color: var(--themeColor);
+    color: white;
+}
+.btn-resume:hover{
+    color: antiquewhite;
+    cursor: pointer;
+}
 
 /* navBar */
 
