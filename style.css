@@ -42,6 +42,7 @@ header .profile{
 
 header .profile img{
     width: 150px;
+  margin: 0 auto;
     border-radius: 50%;
     border: 10px solid var(--iconBGColor);
 }
@@ -499,3 +500,43 @@ main{
     }
 }
 /* ==== Skill Section End ===== */
+/* ------------------------------------------------------- */
+/* ==== Project Section Start ===== */
+
+#project {
+    padding: 70px 30px;
+  }
+ 
+  .carousel-item img {
+    width: 530px;  
+    height: 450px;
+    
+  }
+
+  .carousel{
+    max-width: 700px; 
+    
+  
+  }
+  
+.btn-link-button{
+    padding: 3px;
+    background-color: var(--themeColor);
+    border-radius: 5px;
+    color: white;
+    /* margin: 10px 0px; */
+}
+.btn-link-button:hover{
+    color: wheat;
+} 
+  
+
+@media only screen and (max-width:450px){
+
+    
+#project {
+    padding: 5px 3px;
+  }
+    
+}
+/* ==== Project Section End ===== */
